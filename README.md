@@ -5,19 +5,19 @@
 
 2. Создать папку 
 
-  `mkdir /c/HW1`
+  `mkdir folder_1`
 
 3. Зайти в папку 
 
-  `cd HW1`
+  `cd folder_1`
 
 4. Создать 3 папки mkdir folder1 folder2 folder3
 
-  `mkdir folder1 folder2 folder3`
+  `mkdir folder_1 folder_2 folder_3`
 
 5. Зайти в любую папку cd folder1
 
-  `cd folder1`
+  `cd folder_1`
 
 6. Создать 5 файлов (3 txt, 2 json) 
 
@@ -25,11 +25,11 @@
 
 7. Создать 3 папки
 
-  `mkdir folder1_1 folder1_2 folder1_3`
+  `mkdir folder_1 folder_2 folder_3`
 
 8. Вывести список содержимого папки
 
-  `ls -Rla`
+  `ls -la`
 
 9. Открыть любой txt файл 
 
@@ -37,11 +37,11 @@
 
 10. Написать туда что-нибудь, любой текст. 
 
-   `i (any text)`
+   `i "hello world"`
 
 11. Сохранить и выйти. 
 
-   `:wq`
+   `Esc -> :wq`
 
 12. Выйти из папки на уровень выше 
 
@@ -49,35 +49,37 @@
 
 13. Переместить любые 2 файла, которые вы создали, в любую другую папку. 
 
-   `mv test1.txt text2.txt ./folder1_1`
-
+   `mv folder_1/test1.txt folder_2/test1.txt`
+   `mv folder_1/test2.txt folder_2/test2.txt`
+   
 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку. 
 
-  `cp test3.txt test4.json ./folder1_2`
+   `cp folder_2/test1.txt folder_1/test1.txt`
+   `cp folder_2/test2.txt folder_1/test2.txt`
 
 15. Найти файл по имени
 
-   `find . -iname test1.txt`
+   `find -name test1.txt`
 
 16. Просмотреть содержимое в реальном времени (команда grep) изучите как она работает. 
 
-  `tail -f`
+   `grep '' file1.txt`
 
 17. Вывести несколько первых строк из текстового файла 
 
-  `head -n 5 ttn1.txt`
+   `head -n3 test1.txt`
 
 18. Вывести несколько последних строк из текстового файла
 
-  `tail -n 5 ttn1.txt`
+   `tail -n3 test1.txt`
 
 19. Просмотреть содержимое длинного файла (команда less) изучите как она работает.
 
-   `less ttn1.txt`
+   `less test1.txt`
 
 20. Вывести дату и время
 
-  `date`
+   `date`
   
 ==========================================
 
