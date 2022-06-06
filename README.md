@@ -17,19 +17,19 @@
 
 5. Зайти в любую папку cd folder1
 
-   `cd folder1`
+  `cd folder1`
 
 6. Создать 5 файлов (3 txt, 2 json) 
 
-   `touch test1.txt test2.txt test3.txt test4.json test5.json`
+  `touch test1.txt test2.txt test3.txt test4.json test5.json`
 
 7. Создать 3 папки
 
-   `mkdir folder1_1 folder1_2 folder1_3`
+  `mkdir folder1_1 folder1_2 folder1_3`
 
 8. Вывести список содержимого папки
 
-   `ls -Rla`
+  `ls -Rla`
 
 9. Открыть любой txt файл 
 
