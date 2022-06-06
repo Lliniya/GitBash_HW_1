@@ -50,11 +50,13 @@
 13. Переместить любые 2 файла, которые вы создали, в любую другую папку. 
 
    `mv folder_1/test1.txt folder_2/test1.txt`
-   `mv folder_1/test2.txt folder_2/test2.txt`
+  
+  `mv folder_1/test2.txt folder_2/test2.txt`
    
 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку. 
 
    `cp folder_2/test1.txt folder_1/test1.txt`
+   
    `cp folder_2/test2.txt folder_1/test2.txt`
 
 15. Найти файл по имени
