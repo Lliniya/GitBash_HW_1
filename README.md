@@ -49,15 +49,11 @@
 
 13. Переместить любые 2 файла, которые вы создали, в любую другую папку. 
 
-   `mv folder_1/test1.txt folder_2/test1.txt`
-  
-  `mv folder_1/test2.txt folder_2/test2.txt`
+   `mv {test1.txt,test2.txt} folder_2`
    
 14. Скопировать любые 2 файла, которые вы создали, в любую другую папку. 
 
-   `cp folder_2/test1.txt folder_1/test1.txt`
-   
-   `cp folder_2/test2.txt folder_1/test2.txt`
+   `cp {test3.txt,test4.txt} folder_3`
 
 15. Найти файл по имени
 
@@ -65,7 +61,7 @@
 
 16. Просмотреть содержимое в реальном времени (команда grep) изучите как она работает. 
 
-   `grep '' test1.txt`
+   `tail -f test1.txt`
 
 17. Вывести несколько первых строк из текстового файла 
 
