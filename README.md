@@ -87,4 +87,27 @@
    Шаг 1 - curl http://162.55.220.72:5005/terminal-hw-request  
    Шаг 2 - curl "http://162.55.220.72:5005/get_method?name=Alina&age=24"
 ```
+2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 
+```
+   touch bash_script.sh
+   vim bash_script.sh -> I
+   
+   В созданном файле-скрипте пишем:
+   
+   #!/bin/bash
+ 
+   mkdir foldername_1
+   cd foldername_1
+   mkdir foldername_1 foldername_2 foldername_3
+   cd foldername_1
+   touch file1.txt file2.txt file3.txt file4.json file5.json
+   mkdir foldername_1 foldername_2 foldername_3
+   ls -la
+   mv file1.txt file2.txt foldername_1
+   
+   Esc -> :wq
+   
+   Пишем в баш: bash bash_script.sh - вызываем скрипт на исполнение
+   
+```
